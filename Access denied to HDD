@@ -1,0 +1,15 @@
+#What's here for you
+
+Error : Access denied error when trying to paste create files in one of the partition[Harddisk] of the Linux.
+
+**Make sure you have mounted the storage device.
+
+Reason : We have to have permission to write [ create/paste new files ]. Since we do not have the permission we are getting this error.
+
+            
+Solutions : 
+           The Error message shows the path of the partition - add the path to chmod command
+           Open terminal and type 
+           "sudo chmod 777 /the/path/that/shows/in/the/error/message"
+           Followed by root password.
+           
