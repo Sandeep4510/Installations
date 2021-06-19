@@ -11,4 +11,4 @@ Installing Micro-soft teams in the Arch linux Distro - Garuda Linux [ Developed 
 5) makepkg -s
 6) sudo pacman-U teams*.pkg.tar.zst
 
-## Hurry now if you search for the application it should be present 
+## Now if you search for the application it should be present 
